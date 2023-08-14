@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #556270;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+}
+
+.slider {
+    background-color: #4ecdc4;
+    -webkit-appearance: none;
+    border-radius: 6px;
+    height: 16px;
+    outline: none;
+    margin: 6px 0 12px 0;
+}
+
+#valor {
+    color: white;
+}
+.container-senha-hide{
+    display:none;
+}
+.container-senha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ff6b6b;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.button-gerar-senha {
+    background-color: #c7f464;
+    height: 6%;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.button-gerar-senha:hover {
+    background-color: #c7f464;
+    height: 6.2%;
+    border-radius: 10px;
+    border: none;
+}
+
+.senha {
+    background-color: #c44d58;
+    width: 80%;
+    margin: 5px 0 2px 0;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.copiar-senha {
+    font-size: 13px;
+}
